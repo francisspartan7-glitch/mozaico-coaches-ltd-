@@ -9,7 +9,7 @@ import dns from "node:dns";
 dns.setDefaultResultOrder("verbatim");
 
 // https://vite.dev/config/
-export default defineConfig({
+export default defineConfig({  base: '/',m
   plugins: [
     react(),
     tailwindcss(),
